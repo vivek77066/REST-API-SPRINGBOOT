@@ -1,10 +1,21 @@
-# String Calculator TDD Kata
+# 🛒 Product & Category API with JWT Authentication
 
-This repository contains an implementation of the **String Calculator** problem using the principles of **Test-Driven Development (TDD)**. This solution is submitted as part of the **Software Craftsperson Assessment by Incubyte**.
+This is a Spring Boot REST API project that allows authenticated users to manage products and categories. The project includes:
 
-## 🚀 Problem Statement
+- 🔐 JWT-based authentication (Login & Register)
+- 🧾 CRUD APIs for Product and Category
+- 💥 Global exception handling
+- 🧼 Clean architecture using DTOs and Services
 
-Implement a method with the signature:
+---
 
-```java
-int add(String numbers)
+## 📁 Technologies Used
+
+- Java 17+
+- Spring Boot 3+
+- Spring Security
+- JWT (JSON Web Token)
+- MySQL / H2 (configurable)
+- Maven
+
+---
